@@ -6,9 +6,6 @@
 
 		<title>Build your first app</title>
 
-		<meta name="description" content="Get excited and build things">
-		<meta name="author" content="Rails Girls Auckland">
-
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
@@ -35,14 +32,10 @@
 
 		<div class="reveal">
 
-			<!-- Introduction to Rails Girls Apps-->
 			<div class="slides">
 				<section class="title" data-background="images/red-hearts.png">
 					<h1>Build your first app</h1>
-					<h3>Get excited and make things</h3>
-					<h5>
-						<strong>Created by <a href="http://twitter.com/natdudley">Nat Dudley</a> for <a href="http://railsgirls.com">Rails Girls Auckland</a> / <a href="http://twitter.com/railsgirlsakl">@railsgirlsakl</a></strong>
-					</h5>
+					<h3>Get excited and shape the world </h3>
 				</section>
 				<section data-background="images/brushed.png" data-background-repeat="repeat" data-background-size="100px">
 					<h3>Directions</h3>
@@ -124,7 +117,7 @@
 					<p>Normally, developers install software on their computer and use Terminal and a text editor to write code. This is perfectly OK, but it takes a bit more time to set up.</p>
 					<p>We're not making you obtain the necessary tools and build your own workshop just for this demonstration. Instead, we'll let you use a fully working workshop, with all the necessary tools already available. This means we can start making magic straight away.</p>
 					<p>We're going to use a shortcut by coding in Nitrous.io.</p>
-					<p>Set up your <a href="http://railsgirls-my.github.io/nitrous/" target="_blank">Nitrous.io account by following this guide</a>.</p>
+					<p>Set up your <a href="http://www.nitrous.io" target="_blank">Nitrous.io account</a>.</p>
 					<p>When you're ready, log in to your account and then come back here.</p>
 				</section>
 				<section data-background="images/brushed.png" data-background-repeat="repeat" data-background-size="100px">
@@ -163,7 +156,7 @@
 						<p>In Nitrous, open the dashboard, and start a new box</p>
 						<p>We're coding using Ruby on Rails, so <strong>pick the Ruby/Rails template.</strong></p>
 						<ul>
-							<li>Choose a name (like rgakl-rails).</li>
+							<li>Choose a name (like cweek-rails).</li>
 							<li>Tell Nitrous where you are.</li>
 						</ul>
 						<p>Leave the GitHub repo box blank.</p>
@@ -207,16 +200,16 @@
 					<p>The 'projects' directory is usually used to store all your different coding projects.</p>
 				</section>
 				<section data-background="images/brushed.png" data-background-repeat="repeat" data-background-size="100px">
-					<p>We're going to make an app called Rails Girls.</p>
+					<p>We're going to make an app called CodeWeek.</p>
 					<p>In the terminal type:</p>
-					<pre><code>rails new railsgirls -m http://railsgirls.com/simple_scaffold.rb</code></pre>
+					<pre><code>rails new codeweek -m http://railsgirls.com/simple_scaffold.rb</code></pre>
 					<p>The '<code>rails new</code>' command creates a new rails app.</p>
 					<p>The <code>-m http://railsgirls.com/simple_scaffold.rb</code> part tells Rails to download a special template from railsgirls.com which makes the files a bit simpler and easier for beginners to understand.</p>
 				</section>
 				<section data-background="images/brushed.png" data-background-repeat="repeat" data-background-size="100px">
 					<p>Let's change directory into our new app.</p>
 					<p>In the terminal type:</p>
-					<pre><code>cd railsgirls</code></pre>
+					<pre><code>cd codeweek</code></pre>
 				</section>
 				<!-- Test Server -->
 				<section data-background="images/brushed.png" data-background-repeat="repeat" data-background-size="100px">
@@ -425,7 +418,7 @@
 					<p>Let's add the footer too. Before <code>&lt;/body&gt;</code>, add:</p>
 					<pre><code class=" hljs xml"><footer>
   <div class="container">
-    Rails Girls 2014
+    Code Week 2014
   </div>
 </footer>
 <script src="//railsgirls.com/assets/bootstrap.js"></script></code></pre>
@@ -583,7 +576,7 @@ th { border-bottom: 1px solid #DDD; }</code></pre>
 					<p>Click the <a href="https://github.com/new" target="_blank"><img src="images/newrepo.png"></a> button.</p>
 				</section>
 				<section data-background="images/brushed.png" data-background-repeat="repeat" data-background-size="100px">
-					<p>Give the repository a name, such as rails-girls.</p>
+					<p>Give the repository a name, such as code_week.</p>
 					<p>You can also add a description.</p>
 				</section>
 				<section data-background="images/brushed.png" data-background-repeat="repeat" data-background-size="100px">							<p>Choose the 'Public Repository' option and make sure you tick the 'Initialize this repository with a README' box.</p>
@@ -594,7 +587,7 @@ th { border-bottom: 1px solid #DDD; }</code></pre>
 				<section data-background="images/brushed.png" data-background-repeat="repeat" data-background-size="100px">
 					<p>Go back to Nitrous.io. Make sure you're still in your project directory.</p>
 					<p>You can check this by looking at the terminal. It should show something like this:</p>
-					<pre><code>action@railsgirls-rails-98616:~/projects/railsgirls$</code></pre>
+					<pre><code>action@codeweek-rails-98616:~/projects/codeweek$</code></pre>
 					<p>If you're not, use the <code>cd</code> command you learned earlier to change back into that directory.</p>
 				</section>
 				<section data-background="images/brushed.png" data-background-repeat="repeat" data-background-size="100px">
